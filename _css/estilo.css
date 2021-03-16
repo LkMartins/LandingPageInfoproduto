@@ -1,6 +1,7 @@
 html {
   padding: 0;
   margin: 0;
+  box-sizing:border-box;
 }
 body {
     background-color: rgb(104, 5, 104);
@@ -67,11 +68,11 @@ header {
 
 .img-logo2 {
   margin-top: 150px;
-  margin-left: 530px;
+  margin-left: 505px;
 }
 
 .text-box2 {
-  margin-left: 35vw;
+  margin-left: 36vw;
   margin-top: -3vh;
 }
 
@@ -187,7 +188,7 @@ header {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   position: absolute;
-  top: 485%;
+  top: 2900px;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
@@ -234,7 +235,11 @@ img.icone {
 
 .texto-garantia {
   margin-left: 100px;
-  margin-top: 70px;
+  margin-top: 50px;
+}
+
+.texto-garantia h3 {
+  margin-left: 120px;
 }
 
 .img-garantia {
@@ -249,22 +254,17 @@ img.icone {
 
 .img-logo3 {
   margin-left: 530px;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 #geral-preco {
-  margin-top: 25em;
+  padding: 0;
+  margin-top: -320px;
+  font-family:'Times New Roman', Times, serif;
+  color:rgb(114, 223, 250);
 }
-
-#preco {
-padding: 0;
-margin-top: -370px;
-font-family:'Times New Roman', Times, serif;
-color:rgb(114, 223, 250)
-}
-
 .pparte1 {
-  margin-top: 1.5em;
+  margin-top: 15em;
   margin-left: 520px;
   font-size: 1.2em;
 }
@@ -284,8 +284,8 @@ color:rgb(114, 223, 250)
 }
 
 .text-box {
-  margin-left: 35vw;
-  margin-top: -30vh;
+  margin-left: 37vw;
+  margin-top: -6vh;
 }
 
 .btn:link,
@@ -360,8 +360,8 @@ color:rgb(114, 223, 250)
   background-color: rgb(255, 255, 255);
   border-radius: 50em;
   position: relative;
-  top: -110px;
-  right: 70px;
+  top: 40px;
+  right: 110px;
 }
 
 #cartoes img{
@@ -405,6 +405,7 @@ color:rgb(114, 223, 250)
   html {
     padding: 0;
     margin: 0;
+    box-sizing:border-box;
   }
   
   .body {
@@ -413,8 +414,8 @@ color:rgb(114, 223, 250)
     overflow-x: hidden;
   }
 
-  .principal {
-    height: 250px;
+  .imgs-iniciais {
+    height: 400px;
     margin: 0;
     padding: 0;
     background-color: transparent;
@@ -426,19 +427,16 @@ color:rgb(114, 223, 250)
     background-color: rgba(24, 24, 176, 0);
   }
 
-  .img-logo1 {
-    padding: 0px;
-    width: 300px;
-    margin-left: 40px;
-    margin-top: 50px;
-   }
-
-  .img-logo2 {
-    width: 200px;
-    margin-top: 150px;
-    margin-left: 100px;
+  .pacote-fulstack {
+    margin-left: 0;
   }
-  
+
+  .img-logo1 {
+    margin-left: 55px;
+    width: 300px;
+    height: 150px;
+  }
+
   .img-logo3 {
     width: 200px;
     margin-top: 150px;
@@ -449,13 +447,32 @@ color:rgb(114, 223, 250)
     height: 24px;
   }
 
+  #video-apresentacao {
+    padding-bottom: 0px;
+  }
   .video {
     height: 200px;
   }
 
-  .telacombotao {
-    height: 400px;
-    box-shadow: inset 0 180px 20px -10px rgb(58, 58, 58);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+  #icones-geral {
+    margin-right: 0px;
+    padding-left: 75px;
+  }
+
+  .tela-comprar {
+    height: 350px;
+    box-shadow: inset 0 18px 20px -10px rgb(46, 46, 46);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+  }
+
+  .img-logo2 {
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 75px;
+  }
+
+  .text-box2 {
+    margin-left: -78vw;
+    margin-top: 40vh;
   }
 
   .escrita {
@@ -522,21 +539,23 @@ color:rgb(114, 223, 250)
     background-color: rgb(77, 128, 210); 
   }
 
-  .faq {
-    margin-top: 310px;
-    margin-bottom: -220px;
-  }
-
   #textos {
     padding: 0;
-    height: 3200px;
-    margin-top: -330px;
+    height: 3000px;
+    margin-top: 0px;
   }
+
+  .faq {
+    margin-top: 30px;
+    margin-bottom: -10px;
+  }
+
   
   .card {
     padding: 0px;
     width: 250px;
-    margin-top: 300px;
+    margin-top: 30px;
+    margin-left: 17px;
   }
 
   .card-body {
@@ -553,10 +572,15 @@ color:rgb(114, 223, 250)
     padding: 0px;
   }
 
+   #perfildecliente {
+      height: 580px;
+   }
+
   .textoanimado {
     font-size: 32px;
     font-weight: 900px;
-    margin-top: 900px;
+    margin-top: 1460px;
+    font-weight:900
   }
 
   #garantia {
@@ -565,7 +589,13 @@ color:rgb(114, 223, 250)
 
   .texto-garantia {
     margin-left: 20px;
-    margin-top: 70px;
+    margin-top: 0px;
+    padding: 20px;
+  }
+
+  .texto-garantia h3 {
+    margin-bottom: 32px;
+    margin-left: 20px;
   }
   
   .img-garantia {
@@ -573,37 +603,52 @@ color:rgb(114, 223, 250)
    margin-top: 50px;
   }
 
-  #preco {
+  #compra {
+    height: 500px;
+   }
+
+  .img-logo3 {
+    width: 300px;
+    height: 150px;
+    margin-left: 55px;
+    margin-top: 70px;
+  }
+
+  #geral-preco {
     padding: 0;
-    margin-top: -370px;
-    margin-left: -500px;
+    margin-top: -60px;
+    margin-left: 10px;
     font-family:'Times New Roman', Times, serif;
     color:rgb(114, 223, 250)
     }
   
   .pparte1 {
       margin-top: 1.5em;
-      margin-left: 520px;
       font-size: 1.2em;
+      margin-left: 0px;
+      float: left;
     }
   .pparte1 p{
       margin-top: -0.9em;
+      margin-left: 0px;
+      padding-left: 5px;
     }
   .terceirop {
       padding-top: 0.4em;
       font-size: 1.5em;
-      margin-left: -10px;
     }
     
   .pparte2 {
       margin-top: -1.4em;
-      margin-left: 6.8em;
+      margin-left: 0px;
       font-size: 6em;
+      float: right;
+      padding-left: 150px;
     }
 
     .text-box {
-      margin-left: 10vw;
-      margin-top: -30vh;
+      margin-left: 12vw;
+      margin-top: -12vh;
     }
     
     .btn:link,
@@ -670,5 +715,18 @@ color:rgb(114, 223, 250)
           opacity: 1;
           transform: translateY(0px);
       }
+    }
+
+    #cartoes {
+      width: 300px;
+      left: 10px;
+      margin-top: -55px;
+    }
+  
+    #cartoes img{
+      height: 20px;
+      width: 270px;
+      margin-left: 15px;
+      margin-top: 15px;
     }
 }
